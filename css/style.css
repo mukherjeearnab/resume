@@ -105,3 +105,15 @@ h10 {
     text-decoration: none;
     color: #adadad;
 }
+
+.skill {
+    text-align: center;
+}
+
+.skill h5 {
+    text-align: left;
+}
+
+.skill h1 {
+    color: #adadad;
+}
