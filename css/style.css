@@ -27,7 +27,7 @@ html * {
 
 .contact {
     text-align: center;
-    padding: 8%;
+    padding: 6%;
 }
 
 .contact h5 {
@@ -42,12 +42,66 @@ html * {
     /* font-weight: bold; */
 }
 
+.contact a {
+    color: #fff;
+    text-decoration: none;
+    /* transition-delay: 0.5s; */
+    transition: 0.5s;
+}
+
+.contact a:hover {
+    color: #cdcdcd;
+}
+
 .contact ul {
     text-align: left;
+    padding-left: 10%;
     /* text-transform: uppercase; */
     /* font-weight: bold; */
 }
 
 .about {
     text-align: justify;
+}
+
+.right-class {
+    padding: 20px;
+}
+
+.right-class h4 {
+    color: #4d4d4d;
+    font-weight: 600;
+}
+
+.right-content h5 {
+    color: #2a97d5;
+}
+
+.right-content h9,
+h10 {
+    font-weight: 600;
+    color: #adadad;
+}
+
+.right-content p {
+    color: #6d6d6d;
+}
+
+.right-content ul {
+    padding-left: 30px;
+    color: #6d6d6d;
+}
+
+.right-content a {
+    text-decoration: none;
+}
+
+/* .content {
+    overflow-y: scroll;
+} */
+
+.h-link {
+    transition: 0.5s;
+    text-decoration: none;
+    color: #adadad;
 }
