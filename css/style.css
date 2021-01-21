@@ -61,6 +61,17 @@ html * {
 }
 
 .about {
+    text-align: center;
+    padding: 6%;
+}
+
+.about h5 {
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.about p {
     text-align: justify;
 }
 
