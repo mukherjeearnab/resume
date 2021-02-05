@@ -1,5 +1,10 @@
+.body {
+    background-color: #fff;
+}
+
 html * {
     font-family: "JetBrains Mono", monospace;
+    transition: 0.5s;
 }
 
 .sidebar {
@@ -86,6 +91,10 @@ html * {
 
 .right-content h5 {
     color: #2a97d5;
+}
+
+.right-content h5 a:visited {
+    color: #00a2ff;
 }
 
 .right-content h9,
