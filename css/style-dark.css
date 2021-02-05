@@ -139,3 +139,8 @@ h10 {
 .skill h1 {
     color: #adadad;
 }
+
+/* Icon Adjustment */
+#icon-solidity {
+    filter: invert(1);
+}
