@@ -56,3 +56,7 @@ h10 {
 #icon-solidity {
     filter: invert(1);
 }
+
+.mode-dial {
+    transform: rotate(-180deg);
+}
