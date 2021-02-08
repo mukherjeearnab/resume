@@ -2,95 +2,29 @@
     background-color: #fff;
 }
 
-html * {
-    font-family: "JetBrains Mono", monospace;
-    transition: 0.5s;
-}
-
 .sidebar {
     background-color: #2a97d5;
     color: #fff;
 }
 
-.profile-img {
-    max-width: 100%;
-    max-height: 100%;
-    padding: 100px;
-    padding-bottom: 30px;
-    padding-top: 30px;
-    border-radius: 50%;
-}
-
-.name {
-    text-align: center;
-}
-
-.role {
-    text-align: center;
-    padding-bottom: 10px;
-}
-
-.contact {
-    text-align: center;
-    padding: 6%;
-}
-
-.contact h5 {
-    text-align: left;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-.contact p {
-    text-align: left;
-    /* text-transform: uppercase; */
-    /* font-weight: bold; */
-}
-
 .contact a {
     color: #fff;
-    text-decoration: none;
-    /* transition-delay: 0.5s; */
-    transition: 0.5s;
 }
 
 .contact a:hover {
     color: #cdcdcd;
 }
 
-.contact ul {
-    text-align: left;
-    padding-left: 10%;
-    /* text-transform: uppercase; */
-    /* font-weight: bold; */
-}
-
-.about {
-    text-align: center;
-    padding: 6%;
-}
-
-.about h5 {
-    text-align: left;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-.about p {
-    text-align: justify;
-}
-
-.right-class {
-    padding: 20px;
-}
-
 .right-class h4 {
     color: #4d4d4d;
-    font-weight: 600;
 }
 
 .right-content h5 {
     color: #2a97d5;
+}
+
+.right-content h5 a {
+    color: #00a2ff;
 }
 
 .right-content h5 a:visited {
@@ -99,41 +33,22 @@ html * {
 
 .right-content h9,
 h10 {
-    font-weight: 600;
     color: #adadad;
 }
 
 .right-content p {
     color: #6d6d6d;
-    font-size: 14px;
 }
 
 .right-content ul {
-    padding-left: 30px;
     color: #6d6d6d;
-    font-size: 14px;
 }
 
 .right-content a {
-    text-decoration: none;
 }
-
-/* .content {
-    overflow-y: scroll;
-} */
 
 .h-link {
-    transition: 0.5s;
-    text-decoration: none;
     color: #adadad;
-}
-
-.skill {
-    text-align: center;
-}
-
-.skill h5 {
-    text-align: left;
 }
 
 .skill h1 {
