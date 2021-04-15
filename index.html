@@ -4,6 +4,7 @@
         <!-- Required meta tags -->
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#061923" />
 
         <link href="css/style-dark.css" rel="stylesheet" />
         <link href="css/style-common.css" rel="stylesheet" />
@@ -702,8 +703,20 @@
                 var style = document.getElementsByTagName("link").item(0);
 
                 let current = style.getAttribute("href");
-                if (current === "css/style-light.css") style.setAttribute("href", "css/style-dark.css");
-                else if (current === "css/style-dark.css") style.setAttribute("href", "css/style-light.css");
+                if (current === "css/style-light.css") {
+                    // Change to Dark Mode
+                    style.setAttribute("href", "css/style-dark.css");
+                    changeMetaTheme(1);
+                } else if (current === "css/style-dark.css") {
+                    // Change to Light Mode
+                    style.setAttribute("href", "css/style-light.css");
+                    changeMetaTheme(0);
+                }
+            }
+
+            function changeMetaTheme(mode) {
+                if (mode == 0) document.querySelector('meta[name="theme-color"]').content = "#2a97d5";
+                else if (mode == 1) document.querySelector('meta[name="theme-color"]').content = "#061923";
             }
 
             function dynamicMode() {
