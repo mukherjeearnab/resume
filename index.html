@@ -731,12 +731,18 @@
             }
 
             function dynamicMode() {
-                var style = document.getElementsByTagName("link").item(0);
-
                 var h = new Date().getHours();
-                // console.log(h);
-                if (h > 5 && h < 18) style.setAttribute("href", "/css/style-light.css");
-                else style.setAttribute("href", "/css/style-dark.css");
+                var style = document.querySelector('link[rel="stylesheet"]');
+
+                if (h > 5 && h < 18) {
+                    // Change to Dark Mode
+                    style.setAttribute("href", "/css/style-dark.css");
+                    changeMetaTheme(1);
+                } else {
+                    // Change to Light Mode
+                    style.setAttribute("href", "/css/style-light.css");
+                    changeMetaTheme(0);
+                }
             }
         </script>
     </body>
