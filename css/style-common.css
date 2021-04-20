@@ -103,3 +103,9 @@ h10 {
 .skill h5 {
     text-align: left;
 }
+
+.musescore-icon {
+    content: url("/img/icons/musescore.png");
+    width: 1em;
+    color: #fff;
+}
