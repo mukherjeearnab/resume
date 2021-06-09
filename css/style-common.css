@@ -109,3 +109,20 @@ h10 {
     width: 1em;
     color: #fff;
 }
+
+.download-pdf-resume {
+    text-align: center;
+}
+
+.download-pdf-resume p {
+    padding: 10px;
+}
+
+.download-pdf-resume a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.download-pdf-resume a:hover {
+    color: #fff;
+}

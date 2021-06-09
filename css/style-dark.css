@@ -60,3 +60,7 @@ h10 {
 .mode-dial {
     transform: rotate(-180deg);
 }
+
+.download-pdf-resume p {
+    background-color: #2485bc;
+}
