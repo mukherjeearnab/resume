@@ -78,6 +78,14 @@ h10 {
     font-weight: 600;
 }
 
+.research-subsection-header {
+    text-decoration: underline;
+}
+
+.research-subsection {
+    padding-bottom: 10px;
+}
+
 .right-content p {
     font-size: 14px;
 }
